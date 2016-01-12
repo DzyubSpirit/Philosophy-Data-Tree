@@ -1,0 +1,49 @@
+form {
+    width: 300px;
+}
+fieldset,
+.theme-group {
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    height: 100px;
+}
+
+textarea.thesis {
+    height: 50px;
+}
+
+.add-1,
+.add-2 {
+    width: 30px;
+    height: 30px;
+}
+
+.add::before,
+.add::after {
+    content: "";
+    position: absolute;
+}
+
+.add:before {
+    width: 5px;
+    height: 20px;
+    background-color: green;
+    margin: -10px -3px;
+}
+
+.add::after {
+    width: 20px;
+    height: 5px;
+    background-color: green;
+    margin: -3px -10px;
+}
+
+#form > fieldset:nth-of-type(2) > .theme-group:first-of-type {
+    display: none;
+}
+
+* {
+    /*border: 1px solid black;*/
+}

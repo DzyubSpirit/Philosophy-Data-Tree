@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creator</title>
+    <meta charset="utf-8" />
+    <link href="create_node.css" rel="stylesheet" />
+    <script src="create_node.js"></script>
+</head>
+<body>
+    <form id="form">
+        <fieldset>
+            <input name="header" type="text" placeholder="Розділ"/>
+            <textarea name="description" placeholder="Про розділ"></textarea>
+        </fieldset>
+        <fieldset>
+            <div class="theme-group">
+                <input name="theme" type="text" class="theme" placeholder="Підрозділ" />
+                <textarea name="thesis" class="thesis" placeholder="thesis"></textarea>
+                <button type="button" class="add add-1"></button>
+            </div>
+            <button type="button" class="add add-2"></button>
+        </fieldset>
+        <button type="submit" id="sendButton">Send</button>
+    </form>
+</body>
+</html>
